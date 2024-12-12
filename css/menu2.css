@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+main {
+  margin-top: 5px;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.timeline-item {
+    width: 60%;
+    margin-bottom: 20px;
+    border: 1px solid #4488f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+.timeline-item > p {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.timeline-item > li {
+  padding-top: 5px;
+  text-align: center;
+}
+.timeline-item > h2 {
+    text-align: center;
+    font-family : 'Noto Sans KR', sans-serif;
+    font-size: 36px;
+}

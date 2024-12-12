@@ -1,0 +1,12 @@
+main {
+    font-size: 58px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#main_img{
+    width: 100%;
+}

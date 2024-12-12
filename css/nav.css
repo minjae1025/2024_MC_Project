@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+#club_name{
+    color:#4488f5;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -1px;
+    font-family : 'Noto Sans KR', sans-serif;
+}
+
+#club_name > a {
+    color:#4488f5;
+    text-decoration: none;
+}
+
+.logo{
+    width: 80px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.top{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#school{
+    color: #B0B0B0;
+    font-size: 16px;
+    margin-right: 15px;
+}
+#club{
+    font-family : 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(181, 193, 255);
+    align-items: center;
+}
+.menu {
+    font-size: 28px;
+    font-weight: bold;
+}
+.menu:hover{
+    color: #008256;
+    font-weight: bold;
+}
+.choice{
+    text-decoration: none;
+}
+.common_link{
+    text-decoration: none;
+    color: #000;
+}

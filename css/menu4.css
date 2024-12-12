@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    text-decoration: none;
+    border: 1px solid #4488f5;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-family : 'Noto Sans KR', sans-serif;
+}
+
+.button:hover {
+    background-color: #4488f5;
+    color: white;
+}
+
+.members {
+    display: none; /* 기본적으로 숨김 */
+    flex-wrap: wrap;
+    justify-content: center; /* 중앙 정렬 */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.member {
+    width: 160px; /* 각 멤버 박스의 너비 */
+    text-align: center;
+}
+
+.member img {
+    width: 100%; /* 박스 너비에 맞게 이미지 조정 */
+    height: 220px; /* 고정된 높이 설정 */
+    object-fit: cover; /* 이미지 비율 유지하며 잘림 */
+    border-radius: 10px; /* 이미지 둥글게 */
+}
+
+/* 각 버튼 클릭 시 해당 기수의 멤버만 보이도록 CSS 클래스 추가 */
+#members-13:target,
+#members-14:target,
+#members-15:target {
+    display: flex; /* 선택된 기수의 멤버 보이기 */
+} 
+
+.member > p {
+    font-family : 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.members > p {
+    display: table-column;
+    justify-content: center;
+}
+
+.sub_text {
+    margin-top: 5px;
+    font-size: 12px;
+    color: gray;
+}
+
+h2 {
+    font-size: 48px;
+    font-family : 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
